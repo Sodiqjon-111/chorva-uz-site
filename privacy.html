@@ -13,7 +13,6 @@
 </head>
 <body>
 <h1>Chorva Uz — Maxfiylik siyosati</h1>
-
 <h2>1. Umumiy qoidalar</h2>
 <p>«Chorva Uz» mobil ilovasi O'zbekiston Respublikasi hududida chorva va uy
 hayvonlarini sotish hamda sotib olish bo'yicha e'lonlar joylashtirish uchun
@@ -21,44 +20,76 @@ mo'ljallangan axborot platformasidir. Ushbu siyosat O'zbekiston
 Respublikasining «Shaxsga doir ma'lumotlar to'g'risida»gi Qonuni (O'RQ-547),
 «Axborotlashtirish to'g'risida»gi Qonuni va Fuqarolik kodeksiga muvofiq
 ishlab chiqilgan.</p>
-
 <h2>2. To'planadigan ma'lumotlar</h2>
+<p><strong>Siz o'zingiz kiritadigan ma'lumotlar:</strong></p>
 <ul>
-  <li>Ism-familiya va email (Google hisobi orqali kirishda)</li>
+  <li>Ism-familiya va email (Google yoki Apple hisobi orqali kirishda)</li>
   <li>Telefon raqami (e'lon joylashtirishda ko'rsatilsa)</li>
   <li>Viloyat va tuman (e'lon manzili sifatida)</li>
   <li>E'lon ma'lumotlari: rasmlar, video, tavsif, narx</li>
-  <li>Qurilma push-bildirishnoma identifikatori (xabarnomalar yuborish uchun)</li>
-  <li>Anonim foydalanish statistikasi (o'rnatishlar va sessiyalar soni)</li>
+  <li>«Bog'lanish» bo'limi orqali yuborilgan xabarlar</li>
 </ul>
+<p><strong>Ilova avtomatik to'playdigan ma'lumotlar:</strong></p>
+<ul>
+  <li>Qurilmaning push-bildirishnoma identifikatori (FCM token)</li>
+  <li>O'rnatish identifikatori — tasodifiy yaratilgan raqam, u ismingiz yoki
+      telefoningiz bilan bog'liq emas</li>
+  <li>Qurilma turi (Android yoki iOS), ilova versiyasi</li>
+  <li>Ilovadan foydalanish hodisalari: ilovani ochish, e'lon joylash,
+      «Qo'ng'iroq qilish» tugmasini bosish</li>
+  <li>Reklama havolasi orqali o'rnatilgan bo'lsa — reklama manbasi nomi</li>
+</ul>
+<p class="muted">Ilova joylashuvingizni (GPS) kuzatmaydi, kontaktlaringizni
+o'qimaydi va reklama identifikatoringizni (IDFA/GAID) yig'maydi.</p>
 
 <h2>3. Ma'lumotlardan foydalanish</h2>
 <ul>
   <li>E'lonlarni joylashtirish va ko'rsatish</li>
   <li>Sotuvchi va xaridor o'rtasida bog'lanishni ta'minlash</li>
   <li>Murojaatlarga javob berish va push-bildirishnomalar yuborish</li>
-  <li>Ilovani takomillashtirish</li>
+  <li>Ilovaning qaysi qismlari ishlatilishini tushunish va uni yaxshilash</li>
 </ul>
 
-<h2>4. Himoya choralari</h2>
+<h2>4. Uchinchi tomon xizmatlari</h2>
+<p>Ilova ishlashi uchun quyidagi xizmatlardan foydalanadi. Ular o'z
+serverlarida ma'lumotlarni qayta ishlaydi va har birining o'z maxfiylik
+siyosati bor:</p>
+<ul>
+  <li><strong>Google Firebase</strong> (Google LLC) — hisobga kirish
+      (Authentication), push-bildirishnomalar (Cloud Messaging) va foydalanish
+      statistikasi (Analytics). Unga email, hisob identifikatori, qurilma
+      turi va foydalanish hodisalari yetib boradi.
+      <a href="https://firebase.google.com/support/privacy">Firebase maxfiylik siyosati</a></li>
+  <li><strong>AppMetrica</strong> (Yandex) — foydalanish statistikasi:
+      sessiyalar, e'lon joylash va qo'ng'iroq tugmasi hodisalari. Ismingiz,
+      telefon raqamingiz va e'lonlaringiz mazmuni unga yuborilmaydi.
+      <a href="https://appmetrica.yandex.ru/about/privacy-policy">AppMetrica maxfiylik siyosati</a></li>
+  <li><strong>Google Play / App Store</strong> — ilovani tarqatish va
+      o'rnatishlar statistikasi.</li>
+</ul>
+
+<h2>5. Himoya choralari va ma'lumotlarni o'chirish</h2>
 <ul>
   <li>Ma'lumotlar himoyalangan serverlarda saqlanadi</li>
-  <li>Foydalanuvchi roziligisiz uchinchi shaxslarga berilmaydi</li>
+  <li>Ma'lumotlaringiz <strong>sotilmaydi</strong> va reklama maqsadida
+      uchinchi shaxslarga berilmaydi. 4-bo'limdagi xizmatlar ularni faqat
+      ilova ishlashi uchun qayta ishlaydi</li>
+  <li>Telefon raqamingiz faqat e'loningizda va faqat ilova ichida ko'rinadi;
+      u ommaviy veb-sahifalarga chiqarilmaydi</li>
   <li>Foydalanuvchi istalgan vaqtda ilovadagi «Hisobni o'chirish» tugmasi
       orqali barcha ma'lumotlarini butunlay o'chirishi mumkin</li>
+  <li>Bildirishnomalarni qurilma sozlamalaridan istalgan vaqtda
+      o'chirib qo'yish mumkin</li>
 </ul>
-
-<h2>5. Javobgarlikni cheklash</h2>
+<h2>6. Javobgarlikni cheklash</h2>
 <p>Ilova faqat axborot platformasi sifatida faoliyat yuritadi va sotuvchi hamda
 xaridor o'rtasidagi bitimlarning ishtirokchisi hisoblanmaydi. Tovar sifati,
 to'lovlar va shartnoma majburiyatlari bo'yicha nizolar taraflarning o'zlari
 tomonidan yoki O'zbekiston Respublikasi qonunchiligida belgilangan tartibda
 hal qilinadi.</p>
-
-<h2>6. Bog'lanish</h2>
+<h2>7. Bog'lanish</h2>
 <p>Savollar uchun: <a href="mailto:businessspace373@gmail.com">businessspace373@gmail.com</a>
 yoki ilova ichidagi «Bog'lanish» bo'limi.</p>
-
-<p class="muted">Oxirgi yangilanish: 2026-yil iyul</p>
+<p class="muted">Oxirgi yangilanish: 2026-yil sentabr</p>
 </body>
 </html>
